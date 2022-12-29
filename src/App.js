@@ -7,6 +7,7 @@ import {
 import Home from "./pages/home";
 import List from "./pages/list";
 import New from "./pages/new";
+import Settings from "./pages/settings";
 import Single from "./pages/single";
 
 
@@ -26,6 +27,7 @@ function App() {
             <Route path=":productId" element={<Single />} />
             <Route path="new" element={<New />} />
           </Route>
+          <Route path="settings" element={<Settings />} />
         </Route>
       </Routes>
     </BrowserRouter>

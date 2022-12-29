@@ -61,10 +61,12 @@ export const Sidebar = () => {
                         <Psychology className="icon" />
                         <span>Logs</span>
                     </li>
-                    <li>
-                        <SettingsApplications className="icon" />
-                        <span>Settings</span>
-                    </li>
+                    <Link to="/settings" style={{ textDecoration: "none" }}>
+                        <li>
+                            <SettingsApplications className="icon" />
+                            <span>Settings</span>
+                        </li>
+                    </Link>
                     <p className="title">USER</p>
                     <li>
                         <AccountCircle className="icon" />
